@@ -1,4 +1,4 @@
-# Desing Dijkstra Algorithm
+# Design Dijkstra Algorithm
 
 ## Overview
 Code challenge for Designing a shortest path from one location to another location within connected nodes using Dijkstra Algorithm. 
