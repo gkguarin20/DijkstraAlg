@@ -1,0 +1,140 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/gnr/Documents/Cursos/DijkstraAlg/DijkstraAlg.Test/DijkstraAlg.Test.csproj": {}
+  },
+  "projects": {
+    "/Users/gnr/Documents/Cursos/DijkstraAlg/Dijkstra/Dijkstra.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/gnr/Documents/Cursos/DijkstraAlg/Dijkstra/Dijkstra.csproj",
+        "projectName": "Dijkstra",
+        "projectPath": "/Users/gnr/Documents/Cursos/DijkstraAlg/Dijkstra/Dijkstra.csproj",
+        "packagesPath": "/Users/gnr/.nuget/packages/",
+        "outputPath": "/Users/gnr/Documents/Cursos/DijkstraAlg/Dijkstra/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/gnr/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.203/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/gnr/Documents/Cursos/DijkstraAlg/DijkstraAlg.Test/DijkstraAlg.Test.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/gnr/Documents/Cursos/DijkstraAlg/DijkstraAlg.Test/DijkstraAlg.Test.csproj",
+        "projectName": "DijkstraAlg.Test",
+        "projectPath": "/Users/gnr/Documents/Cursos/DijkstraAlg/DijkstraAlg.Test/DijkstraAlg.Test.csproj",
+        "packagesPath": "/Users/gnr/.nuget/packages/",
+        "outputPath": "/Users/gnr/Documents/Cursos/DijkstraAlg/DijkstraAlg.Test/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/gnr/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "/Users/gnr/Documents/Cursos/DijkstraAlg/Dijkstra/Dijkstra.csproj": {
+                "projectPath": "/Users/gnr/Documents/Cursos/DijkstraAlg/Dijkstra/Dijkstra.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[17.5.0, )"
+            },
+            "coverlet.collector": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.2.0, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.4.2, )"
+            },
+            "xunit.runner.visualstudio": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.4.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.203/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
